@@ -190,18 +190,18 @@ with modeling:
     if nb:
         if mod:
             st.write(
-                'Model Naive Bayes accuracy score: (0:0.2f)'. format(scoreNB))
+                'Model Naive Bayes accuracy score: {0:0.2f}'. format(scoreNB))
     if kn:
         if mod:
-            st.write("Model KNN accuracy score : (0:0.2f)" . format(scoreKNN))
+            st.write("Model KNN accuracy score : {0:0.2f}" . format(scoreKNN))
     if des:
         if mod:
             st.write(
-                "Model Decision Tree accuracy score : (0:0.2f)" . format(scoredt))
+                "Model Decision Tree accuracy score : {0:0.2f}" . format(scoredt))
 
     if mlp:
         if mod:
-            st.write("Model MLP accuracy score: (0:0.2f)".format(scoreMLP))
+            st.write("Model MLP accuracy score: {0:0.2f}".format(scoreMLP))
 
     eval = st.button("Evaluasi semua model")
     if eval:
